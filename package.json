@@ -1,0 +1,20 @@
+{
+  "name": "xfe",
+  "version": "1.0.0",
+  "description": "query xfe api",
+  "main": "xfe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "inquirer": "^5.2.0",
+    "moment": "^2.21.0",
+    "request": "^2.72.0"
+  },
+  "bin": {
+    "xfe": "./xfe.js"
+  }
+}
