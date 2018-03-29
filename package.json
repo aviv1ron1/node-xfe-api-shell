@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "aviv1ron1@gmail.com",
+  "license": "MIT",
   "dependencies": {
     "commander": "^2.15.1",
     "inquirer": "^5.2.0",
@@ -16,5 +16,8 @@
   },
   "bin": {
     "xfe": "./xfe.js"
-  }
+  },
+  "repository": "github:aviv1ron1/node-xfe-api-shell",
+  "bugs": "https://github.com/aviv1ron1/node-xfe-api-shell/issues",
+  "keywords": ["xfe", "xforce", "security", "xforce exchange", "intelligence", "threat"]
 }
