@@ -1,6 +1,6 @@
 {
   "name": "node-xfe-api-shell",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "query xfe api",
   "main": "xfe.js",
   "scripts": {
@@ -11,13 +11,20 @@
   "dependencies": {
     "commander": "^2.15.1",
     "inquirer": "^5.2.0",
-    "moment": "^2.21.0",
-    "request": "^2.72.0"
+    "moment": "^2.22.1",
+    "request": "^2.85.0"
   },
   "bin": {
     "xfe": "./xfe.js"
   },
   "repository": "github:aviv1ron1/node-xfe-api-shell",
   "bugs": "https://github.com/aviv1ron1/node-xfe-api-shell/issues",
-  "keywords": ["xfe", "xforce", "security", "xforce exchange", "intelligence", "threat"]
+  "keywords": [
+    "xfe",
+    "xforce",
+    "security",
+    "xforce exchange",
+    "intelligence",
+    "threat"
+  ]
 }

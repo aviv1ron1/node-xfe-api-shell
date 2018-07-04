@@ -54,6 +54,8 @@ try {
             })
         }
         if (answers.base) {
+            gotAllAnswers(answers.key, answers.pass, DEFAULT_API);
+        } else {
             inquirer.prompt([{
                 name: "url",
                 message: "enter new base xfe api url"
@@ -63,8 +65,6 @@ try {
                 }
                 gotAllAnswers(answers.key, answers.pass, baseUrlAns.url);
             });
-        } else {
-            gotAllAnswers(answers.key, answers.pass, DEFAULT_API);
         }
     });
 }
