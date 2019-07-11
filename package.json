@@ -1,6 +1,6 @@
 {
   "name": "node-xfe-api-shell",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "query xfe api",
   "main": "xfe.js",
   "scripts": {
