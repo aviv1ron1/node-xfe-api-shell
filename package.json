@@ -12,7 +12,7 @@
     "commander": "^2.15.1",
     "inquirer": "^5.2.0",
     "moment": "^2.22.1",
-    "request": "^2.85.0"
+    "request": "^2.88.0"
   },
   "bin": {
     "xfe": "./xfe.js"
