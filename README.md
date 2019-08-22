@@ -13,8 +13,12 @@ to obtain an api key and password follow these instructions: https://api.xforce.
 # usage
 `xfe -h` get help
 
-`xfe whois a.com` query whois data of a domain
+`xfe whois example.com` query whois data of a domain
 
 `xfe url` get a report of malicious url's from different categories in a specified time frame
+
+`xfe early` get a feed of malicious doains discovered by early warning analytics, this service is paid, you must set your account for this to work
+
+`xfe dns example.com` get dns resolutions and passive dns inspection for a domain
 
 you can use -h on each of the sub commands to get details and help on the command and its options.
