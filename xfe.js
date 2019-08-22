@@ -13,6 +13,8 @@ var startApp = () => {
         .command('whois <domain>', 'query domain whois')
         .alias("w")
         .command('url', 'Return a list of URLs according to the category and date range')
+        .command('early', 'Return an early warning feed of malicious domains - must be registered to service to use')
+        .command('dns <domain>', 'Returns live and passive DNS records.')
         .parse(process.argv);
 }
 
