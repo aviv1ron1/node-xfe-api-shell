@@ -3,9 +3,9 @@ name: publish to npm
 on:
   push:
     branches:
-    - master
-    paths:
-		- package.json
+      - master
+    tags:
+			- v*
 
 jobs:
   publish-npm:
